@@ -8,4 +8,11 @@ public class Game {
         Scanner scanner = new Scanner(System.in);
         return scanner.nextLine();
     }
+
+    public int choose() {
+        Scanner scanner = new Scanner(System.in);
+        int choice = scanner.nextInt();
+        scanner.nextLine();
+        return choice;
+    }
 }
