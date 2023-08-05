@@ -19,13 +19,13 @@
 * kilépés
 
 * task: osztályrendszer kialakítása minden előtt közösen
-  * **RPS** enuum:
+  * **RPS** enuum: Ági
     * ROCK(kő) 
     * PAPER(papir)
     * SCISSOR(olló)
     * enuumokhoz magyar elnevezés
-  * Game osztály:
-    * **scoreboard** Map field
+  * **Game** osztály:
+    * **scoreboard** Map field Ildi
     * @Override default konstruktor:
       * létrehoz egy üres Map-et
     * kő - papir - olló választás metódus **choosingRPS(int choice)** :
@@ -47,7 +47,7 @@
     * új játékos metódus **newPlayer(String name)**:
       * a Map-be kulcsként beirjuk a felhasználó által megadott nevet, és értéknek 0-t állitunk be.
       * ha létezik kulcsként a játékos, akkor ne irjuk felül a már meglévő értéket!
-    * beolvasási metódus  **String input()**:
+    * beolvasási metódus  **String input()**: Geri
       * új játékos metódus kiegészitéseként egy beolvasást hozunk létre
     * beolvasás **int choose()**
     * scoreboard lekérdezés (getter scoreboard fieldhez) **getScoreboard()**
