@@ -9,6 +9,7 @@ public class Game {
         return scanner.nextLine();
     }
 
+    // beolvasás int visszatérési értékkel
     public int choose() {
         Scanner scanner = new Scanner(System.in);
         int choice = scanner.nextInt();
